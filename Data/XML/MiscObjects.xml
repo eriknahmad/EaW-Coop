@@ -1,0 +1,16 @@
+<MiscObject Name="R_Multiplayer_Beacon">
+  <Affiliation>Rebel</Affiliation>
+  <Text_ID>TEXT_MULTIPLAYER_BEACON</Text_ID>
+  <Encyclopedia_Text>TEXT_ENCYCLOPEDIA_MULTIPLAYER_BEACON</Encyclopedia_Text>
+  <Behavior>MULTIPLAYER_BEACON, IDLE</Behavior>
+  <Land_Model_Name>i_multiplayer_beacon.alo</Land_Model_Name>
+  <Space_Model_Name>i_multiplayer_beacon.alo</Space_Model_Name>
+  <Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+  <Radar_Icon_Name>i_icon_minimap_ping.tga</Radar_Icon_Name>
+  <Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+  <Tactical_Health>100</Tactical_Health>
+  <Beacon_Radar_Map_Event_Name>Default_Beacon_Placement</Beacon_Radar_Map_Event_Name>
+  <Beacon_Lifetime_In_Secs>10.0</Beacon_Lifetime_In_Secs>
+  <SFXEvent_Beacon_Placed>GUI_Toggle_Lure_On</SFXEvent_Beacon_Placed>
+  <Lua_Script>COOP</Lua_Script> <!-- ATTACH GAMEOBJECT SCRIPT TO BEACON -->
+</MiscObject>
