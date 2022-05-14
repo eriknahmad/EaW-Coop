@@ -1,9 +1,10 @@
 # EaW-Coop
 Co-Op Unit Sharing Script for Skirmish mode in STAR WARS™ Empire at War
+</br>Future versions will hopefully eliminate the need for a second faction. (To do this in lua we need an instance of the ally player. This is difficult but a potential solution is to find the teamates units and store the owner using unit.Get_Owner(). We just need a reliable way to get an allied unit)
 
 
 # Motivation
-I created this script to find out if you can functionally replicate a "transfer units" command from Co-Op RTS games like Halo Wars. Future versions will hopefully eliminate the need for a separate ally faction. (To do this in lua we need an instance of the AllyFaction. This is difficult because Find_Player() returns the first player of that faction. Potential solution is to find the teamates units and store the owner as AllyFaction using unit.Get_Owner())
+I created this script to find out if you can functionally replicate a "transfer units" command from Co-Op RTS games like Halo Wars.
 
 
 # How to use?
