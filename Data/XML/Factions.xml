@@ -1,0 +1,5 @@
+<Faction Name="FactionName"> <!-- Setup for desired faction -->
+		<Land_Skirmish_AI_Default_Forces>  <!-- Ctrl + F to find this XML Tag -->
+			Default_Unit_Goes_Here, Placeholder_Team_Coop <!-- Put Default Starting Forces then include the new placeholder unit -->
+		</Land_Skirmish_AI_Default_Forces>
+</Faction>
